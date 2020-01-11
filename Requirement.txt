@@ -1,0 +1,4 @@
+pip3 install pyautogui
+pip3 install keyboard
+pip3 install termninal_banner
+pip3 install pyfiglet
