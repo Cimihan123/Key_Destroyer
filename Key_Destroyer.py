@@ -5,7 +5,7 @@ import terminal_banner
 
 
 
-#Baneer
+#Banner
 a=pyfiglet.figlet_format("Key Destroyer")
 b=terminal_banner.Banner(a)
 print(b)
