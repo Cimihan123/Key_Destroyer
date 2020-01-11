@@ -11,5 +11,7 @@ or
 Download zip file,unzip it and type:
 
 python3 Key_Destroyer.py 
+
        or
+       
 sudo python3 Key_Destroyer.py 
