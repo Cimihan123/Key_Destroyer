@@ -5,7 +5,7 @@ import terminal_banner
 
 
 
-#Banner
+#Baneer
 a=pyfiglet.figlet_format("Key Destroyer")
 b=terminal_banner.Banner(a)
 print(b)
@@ -16,86 +16,113 @@ def Loope():
         ke = keyboard.is_pressed('a')
 
         if ke:
-            be = pyautogui.typewrite('@')
+            pyautogui.press('backspace',interval=0.1)
+            be = pyautogui.typewrite('@',interval=0.1)
+            
             continue
         if keyboard.is_pressed('b'):
-            pyautogui.typewrite('!')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('!',interval=0.1)
             continue
         if keyboard.is_pressed('c'):
-            pyautogui.typewrite('#')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('#',interval=0.1)
             continue
         if keyboard.is_pressed('d'):
-            pyautogui.typewrite('$')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('$',interval=0.1)
             continue
         if keyboard.is_pressed('e'):
-            pyautogui.typewrite('}')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('}',interval=0.1)
             continue
         if keyboard.is_pressed('f'):
-            pyautogui.typewrite('%')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('%',interval=0.1)
             continue
 
         if keyboard.is_pressed('g'):
-            pyautogui.typewrite('^')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('^',interval=0.1)
             continue
         if keyboard.is_pressed('h'):
-            pyautogui.typewrite('{')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('{',interval=0.1)
             continue
         if keyboard.is_pressed('i'):
-            pyautogui.typewrite('()')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('()',interval=0.1)
             continue
         if keyboard.is_pressed('j'):
-            pyautogui.typewrite('_')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('_',interval=0.1)
             continue
         if keyboard.is_pressed('k'):
-            pyautogui.typewrite('+')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('+',interval=0.1)
             continue
         if keyboard.is_pressed('l'):
-            pyautogui.typewrite('"')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('"',interval=0.1)
             continue
         if keyboard.is_pressed('m'):
-            pyautogui.typewrite('~')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('~',interval=0.1)
             continue
         if keyboard.is_pressed('n'):
-            pyautogui.typewrite('`')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('`',interval=0.1)
             continue
 
         if keyboard.is_pressed('o'):
-            pyautogui.typewrite('/')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('/',interval=0.1)
             continue
         if keyboard.is_pressed('p'):
-            pyautogui.typewrite(';')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite(';',interval=0.1)
             continue
         if keyboard.is_pressed('q'):
-            pyautogui.typewrite('(')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('(',interval=0.1)
             continue
         if keyboard.is_pressed('r'):
-            pyautogui.typewrite('-')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('-',interval=0.1)
             continue
         if keyboard.is_pressed('s'):
-            pyautogui.typewrite('|')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('|',interval=0.1)
             continue
             
         if keyboard.is_pressed('t'):
-            pyautogui.typewrite('>')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('>',interval=0.1)
             continue
         if keyboard.is_pressed('u'):
-            pyautogui.typewrite('??')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('??',interval=0.1)
             continue
 
         if keyboard.is_pressed('v'):
-            pyautogui.typewrite('.')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('.',interval=0.1)
             continue
         if keyboard.is_pressed('w'):
-            pyautogui.typewrite('+')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('+',interval=0.1)
             continue
         if keyboard.is_pressed('x'):
-            pyautogui.typewrite('{(')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('{(',interval=0.1)
             continue
         if keyboard.is_pressed('y'):
-            pyautogui.typewrite('-;')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite('-;',interval=0.1)
             continue
         if keyboard.is_pressed('z'):
-            pyautogui.typewrite(':')
+            pyautogui.press('backspace',interval=0.1)
+            pyautogui.typewrite(':',interval=0.1)
             continue
             
             
